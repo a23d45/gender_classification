@@ -30,8 +30,14 @@ python -m venv venv
 .\venv\Scripts\activate
 ```
 ### 2. Установка зависимостей
+#### Для Linux/macOS:
 ```
 pip install --upgrade pip
+pip install --no-cache-dir -r requirements.txt
+```
+#### Для Windows:
+```
+py -m pip install --upgrade pip
 pip install --no-cache-dir -r requirements.txt
 ```
 **Используется Python 3.6.2**
